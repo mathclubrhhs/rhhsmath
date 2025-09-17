@@ -1,0 +1,129 @@
+/* ---------- general styles ---------- */
+body {
+    margin: 0;
+    font-family: "Fredoka", sans-serif;
+    background: url("../images/mathclubbg.png") repeat;
+    background-size: 1000px; 
+    color: #2f3a2f;
+}
+
+/* ---------- header ---------- */
+header {
+    background-color: #9aac8d;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: #2f3a2f;
+    font-weight: bold;
+}
+
+/* ---------- navigation ---------- */
+nav {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #f7f9f3;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #d9e6d2;
+}
+
+/* ---------- main content ---------- */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+/* hero section */
+.hero {
+    background: rgba(200, 210, 190, 0.9);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #6b7b58;
+}
+
+/* purpose section */
+.purpose {
+    background: #f7f9f3;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.purpose h3 {
+    font-size: 2rem;
+    color: #6b7b58;
+    margin-bottom: 1rem;
+}
+
+/* events page */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    background: #f7f9f3;
+    margin: -0.4rem 0;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* our team */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.member {
+    background: #f7f9f3;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.member h3 {
+    font-size: 1.4rem;
+}
+
+.member p {
+    font-size: 1.4rem;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    font-size: 1.5rem;
+    background: #6b7b58;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
